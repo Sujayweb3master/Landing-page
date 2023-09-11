@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+
+
+.section-01 {
+    display: flex;
+}
