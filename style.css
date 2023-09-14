@@ -10,20 +10,69 @@ a {
 .header-container {
     color: white;
     background-color: #1f2937;
+    width: auto;
+    height: auto;
+    padding: 20px 150px 150px 150px;
+    
+    
 }
 
 .header {
     display: flex;
-    margin-bottom: 100px;   
+    margin-bottom: 100px;  
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.h-link1 {
+    display: flex;
+    gap: 18px;
+    font-size: 24px;
+}
+
+
+
+.header-logo {
+    display: flex;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-right: auto;
+    width: 160px;
+    height: 160px;
+}
+
+.header-logo img {
+    max-width: 100%;
+    height: autos;
 }
 
 
 .section-01 {
     display: flex;
+    justify-content: space-between;
+}
+
+.header-logo,
+.section-01 {
+    flex: 1;
+}
+
+.content {
+    gap: 35px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 button {
     background-color: #3882f6;
     color: white;
     padding: 4px 20px;
+ }
+
+
+ .footer {
+    text-align: center;
  }
