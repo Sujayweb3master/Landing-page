@@ -58,7 +58,13 @@ a {
 }
 
 .content {
-    gap: 35px;
+    margin-right: 40px;
+}
+
+.button1 {
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
 }
 
 .title {
