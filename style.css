@@ -8,6 +8,10 @@ html, body {
     height: 100%;
 }
 
+body {
+    font-family: Helvetica, sans-serif;
+}
+
 a {
     text-decoration: none; 
     color: white;
@@ -109,7 +113,7 @@ button {
     margin: 40px 0;
 }
 
-.section-02.content{
+.section-02 .content{
     display: flex;
     justify-content: center;
     gap: 40px; 
@@ -120,6 +124,7 @@ button {
     width: 280px;
     height: auto;
     flex-direction: column;
+    justify-content: space-between;
    
 }
 
@@ -128,6 +133,11 @@ button {
     /* height: auto; */
     height: 150px;
     border: 2px solid black;
+    border-radius: 13px;
+}
+
+.section-02.content.image p {
+    text-align: center;
 }
 
                             /* SECTION-03 */
