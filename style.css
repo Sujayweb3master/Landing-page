@@ -194,5 +194,9 @@ button {
 }
 
  .footer {
+    background-color: #1f2937;
+    color: white;
     text-align: center;
+    padding: 60px 0;
+    height: 100px;
  }
