@@ -21,7 +21,7 @@ a {
     color: white;
     background-color: #1f2937;
     width: auto;
-    max-width: 1920px;
+    /* max-width: 1920px; */
     /* min-height: %; */
     padding: 20px 200px 150px 200px;
     height: auto;
@@ -168,8 +168,30 @@ button {
     font-size: 32px;
     font-weight: 800;
 }
+                            /* SECTION-04 */
 
+.section-04 {
+    display: flex;
+    background-color: #3882f6 ;
+    background-clip: content-box;
+    color: #ffffff;
+    height: 300px;
+    padding: 80px;
+    margin: 0 280px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}    
 
+.sign-up p {
+    font-weight: lighter;
+}
+
+.button2 {
+    border-radius: 6px;
+    border: 2px solid #ffffff;
+    font-weight: 600;
+}
 
  .footer {
     text-align: center;
